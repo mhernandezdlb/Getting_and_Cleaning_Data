@@ -6,12 +6,12 @@ Downloads and extracts the content of the "getdata_projectfiles_UCI HAR Dataset.
 
 # Reading the data
 The script reads the datasets and store them in variables using read.table():
-        - features <- 'features.txt' : 561 rows, 2 columns
-                - List of all features with condensed labels.
-        - activities <- 'activity_labels.txt' : 6 rows, 2 columns
-                - Links the class labels with their activity name.
-                - Labels: LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS 
-        - x_test <- 'test/X_test.txt' : 2947 rows, 561 columns
+- features <- 'features.txt' : 561 rows, 2 columns
+ - List of all features with condensed labels.
+- activities <- 'activity_labels.txt' : 6 rows, 2 columns
+- Links the class labels with their activity name.
+- Labels: LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS 
+- x_test <- 'test/X_test.txt' : 2947 rows, 561 columns
                 - Test data set. Features added as columnames using "col.names" argument
         - subject_test <- 'test/subject_test.txt' : 2947 rows, 1 column
                 - List of 9 test subjects linked to the 'x_test.txt' file
